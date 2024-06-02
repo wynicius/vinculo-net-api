@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Vinculo.Net.Api.props" />
+</Project>
