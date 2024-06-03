@@ -1,6 +1,6 @@
 using AutoMapper.Configuration.Annotations;
 
-namespace Vinculo_Net_Api.Aplicacao.Comandos.Ongs.Inserir;
+namespace Vinculo_Net.Aplicacao.Comandos.Ongs.Inserir;
 
 public class NovaOngDto
 {

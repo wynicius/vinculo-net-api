@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Vinculo_Net_Api.Dominio.Entidades.Ongs;
+using Vinculo_Net.Dominio.Entidades.Ongs;
 
-namespace Vinculo_Net_Api.Infraestrutura.Contexto.EntidadesConfiguracoes;
+namespace Vinculo_Net.Infraestrutura.Contexto.EntidadesConfiguracoes;
 
 public class OngEntidadeConfiguracao : IEntityTypeConfiguration<Ong>
 {
     public void Configure(EntityTypeBuilder<Ong> builder)
     {
-        builder.ToTable("ongs", "vinculo_net_api");
+        builder.ToTable("ongs", "Vinculo_Net");
 
         builder.HasKey(p => p.OngId);
 

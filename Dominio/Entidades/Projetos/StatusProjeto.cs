@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Projetos;
+namespace Vinculo_Net.Dominio.Entidades.Projetos;
 
 public enum StatusProjeto
 {

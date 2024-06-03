@@ -1,9 +1,9 @@
 using MediatR;
-using Vinculo_Net_Api.Aplicacao.Comandos.Ongs.Inserir;
-using Vinculo_Net_Api.Dominio.Entidades.Ongs;
-using Vinculo_Net_Api.Infraestrutura.Repositorios;
+using Vinculo_Net.Aplicacao.Comandos.Ongs.Inserir;
+using Vinculo_Net.Dominio.Entidades.Ongs;
+using Vinculo_Net.Infraestrutura.Repositorios;
 
-namespace Vinculo_Net_Api.Application.Aplicacao.Comandos.Ongs.Inserir;
+namespace Vinculo_Net.Application.Aplicacao.Comandos.Ongs.Inserir;
 
 public class InserirOngComandoHandler : IRequestHandler<InserirOngComando, Guid>
 {

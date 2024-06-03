@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Candidaturas;
+namespace Vinculo_Net.Dominio.Entidades.Candidaturas;
 
 public enum StatusCandidatura
 {

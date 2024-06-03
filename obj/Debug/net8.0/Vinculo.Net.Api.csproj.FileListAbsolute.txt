@@ -1,9 +1,3 @@
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.AssemblyReference.cache
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.CoreCompileInputs.cache
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.sourcelink.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\appsettings.Development.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\appsettings.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\Vinculo.Net.Api.exe
@@ -83,6 +77,12 @@ C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\NET.Controllers.pdb
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\NET.Data.pdb
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\NET.Identidade.pdb
 C:\dev\projetos\vinculo\api\vinculo-net-api\bin\Debug\net8.0\NET.Utils.pdb
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.AssemblyReference.cache
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.CoreCompileInputs.cache
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.sourcelink.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\staticwebassets.build.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\staticwebassets.development.json
 C:\dev\projetos\vinculo\api\vinculo-net-api\obj\Debug\net8.0\staticwebassets\msbuild.Vinculo.Net.Api.Microsoft.AspNetCore.StaticWebAssets.props

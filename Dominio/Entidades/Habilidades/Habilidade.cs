@@ -1,4 +1,4 @@
-namespace Vinculo_Net_Api.Dominio.Entidades.Habilidades;
+namespace Vinculo_Net.Dominio.Entidades.Habilidades;
 
 public class Habilidade
 {

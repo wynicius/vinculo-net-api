@@ -1,7 +1,7 @@
 using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Usuarios;
+namespace Vinculo_Net.Dominio.Entidades.Usuarios;
 
 public class Usuario : EntidadeBase
 {

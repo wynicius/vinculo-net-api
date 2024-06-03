@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Voluntarios;
+namespace Vinculo_Net.Dominio.Entidades.Voluntarios;
 
 public enum StatusVoluntario
 {

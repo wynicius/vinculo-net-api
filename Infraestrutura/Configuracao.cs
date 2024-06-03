@@ -1,7 +1,7 @@
 using System.Reflection;
-using Vinculo_Net_Api.Dominio;
+using Vinculo_Net.Dominio;
 
-namespace Vinculo_Net_Api.Infraestrutura;
+namespace Vinculo_Net.Infraestrutura;
 
 #nullable disable
 public class Configuracao : IConfiguracao

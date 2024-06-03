@@ -1,6 +1,6 @@
 ﻿using MediatR.Extensions.FluentValidation.AspNetCore;
 
-namespace Vinculo_Net_Api.Infraestrutura;
+namespace Vinculo_Net.Infraestrutura;
 
 public static class DependencyInjection
 {

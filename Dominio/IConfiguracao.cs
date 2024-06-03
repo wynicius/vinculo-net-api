@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace Vinculo_Net_Api.Dominio;
+namespace Vinculo_Net.Dominio;
 
 public interface IConfiguracao
 {

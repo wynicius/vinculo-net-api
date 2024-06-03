@@ -1,9 +1,9 @@
 using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
-using Vinculo_Net_Api.Dominio.Entidades.Causas;
-using Vinculo_Net_Api.Dominio.Entidades.Projetos;
+using Vinculo_Net.Dominio.Entidades.Causas;
+using Vinculo_Net.Dominio.Entidades.Projetos;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Ongs;
+namespace Vinculo_Net.Dominio.Entidades.Ongs;
 
 public class Ong : EntidadeBase
 {

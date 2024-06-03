@@ -1,6 +1,6 @@
 using NET.Data.Base;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Causas;
+namespace Vinculo_Net.Dominio.Entidades.Causas;
 
 public class Causa : EntidadeBase
 {

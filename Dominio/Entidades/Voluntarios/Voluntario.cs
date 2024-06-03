@@ -1,12 +1,12 @@
 using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
-using Vinculo_Net_Api.Dominio.Entidades.Causas;
-using Vinculo_Net_Api.Dominio.Entidades.Habilidades;
-using Vinculo_Net_Api.Dominio.Entidades.Ongs;
-using Vinculo_Net_Api.Dominio.Entidades.Projetos;
-using Vinculo_Net_Api.Dominio.Entidades.Usuarios;
+using Vinculo_Net.Dominio.Entidades.Causas;
+using Vinculo_Net.Dominio.Entidades.Habilidades;
+using Vinculo_Net.Dominio.Entidades.Ongs;
+using Vinculo_Net.Dominio.Entidades.Projetos;
+using Vinculo_Net.Dominio.Entidades.Usuarios;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Voluntarios;
+namespace Vinculo_Net.Dominio.Entidades.Voluntarios;
 
 public class Voluntario : EntidadeBase
 {

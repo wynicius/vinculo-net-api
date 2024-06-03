@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Investidores;
+namespace Vinculo_Net.Dominio.Entidades.Investidores;
 
 public enum TipoInvestidor
 {

@@ -1,9 +1,9 @@
 using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
-using Vinculo_Net_Api.Dominio.Entidades.Causas;
-using Vinculo_Net_Api.Dominio.Entidades.Usuarios;
+using Vinculo_Net.Dominio.Entidades.Causas;
+using Vinculo_Net.Dominio.Entidades.Usuarios;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Investidores;
+namespace Vinculo_Net.Dominio.Entidades.Investidores;
 
 public class Investidor : EntidadeBase
 {

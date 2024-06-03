@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using NET.Data.Base;
-using Vinculo_Net_Api.Dominio.Entidades.Ongs;
+using Vinculo_Net.Dominio.Entidades.Ongs;
 
-namespace Vinculo_Net_Api.Infraestrutura.Contexto;
+namespace Vinculo_Net.Infraestrutura.Contexto;
 
 
 #nullable disable

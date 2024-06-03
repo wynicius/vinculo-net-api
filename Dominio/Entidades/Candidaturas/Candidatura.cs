@@ -1,11 +1,12 @@
-using Vinculo_Net_Api.Dominio.Entidades.Voluntarios;
+using Vinculo_Net.Dominio.Entidades.Voluntarios;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Candidaturas;
+namespace Vinculo_Net.Dominio.Entidades.Candidaturas;
 
 public class Candidatura
 {
     public Guid CandidaturaId { get; set; }
     public Guid VoluntarioId { get; set; }
-    public Guid OngId { get; set; }
+    public Guid ProjetoId { get; set; }
+    public DateTime Data { get; set; }
     public StatusCandidatura Status { get; set; }
 }

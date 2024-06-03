@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace Vinculo_Net_Api.Dominio.Entidades.Ongs;
+namespace Vinculo_Net.Dominio.Entidades.Ongs;
 
 public enum StatusOng
 {

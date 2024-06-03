@@ -1,15 +1,16 @@
 using System.IO.Abstractions;
 using System.Reflection;
+using GESTAO360.Convenios.Infraestrutura.Repositorios;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using NET.Controllers.Comportamentos;
 using NET.Controllers.Middlewares;
 using NET.Data;
 using NET.Identidade;
-using Vinculo_Net_Api.Dominio;
-using Vinculo_Net_Api.Infraestrutura;
-using Vinculo_Net_Api.Infraestrutura.Contexto;
-using Vinculo_Net_Api.Infraestrutura.Repositorios;
+using Vinculo_Net.Dominio;
+using Vinculo_Net.Infraestrutura;
+using Vinculo_Net.Infraestrutura.Contexto;
+using Vinculo_Net.Infraestrutura.Repositorios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,7 @@ var configuracao = new Configuracao
 {
     Assemblies = currentAssembly
         .GetReferencedAssemblies()
-        .Where(e => e.FullName.StartsWith("VINCYULO"))
+        .Where(e => e.FullName.StartsWith("VINCULO"))
         .Select(Assembly.Load)
         .Union([currentAssembly])
         .ToList(),
@@ -36,8 +37,6 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader()
             .AllowCredentials());
 });
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -62,7 +61,6 @@ builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

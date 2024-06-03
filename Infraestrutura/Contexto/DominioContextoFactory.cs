@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Vinculo_Net_Api.Infraestrutura.Contexto;
+namespace Vinculo_Net.Infraestrutura.Contexto;
 
 public class DominioContextoFactory : IDesignTimeDbContextFactory<DominioContexto>
 {
