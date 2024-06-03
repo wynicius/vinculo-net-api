@@ -6,10 +6,10 @@ using NET.Controllers.Comportamentos;
 using NET.Controllers.Middlewares;
 using NET.Data;
 using NET.Identidade;
-using Vinculo_Net_Api.Domain;
-using Vinculo_Net_Api.Infrastructure;
-using Vinculo_Net_Api.Infrastructure.Context;
-using Vinculo_Net_Api.Infrastructure.Repositories;
+using Vinculo_Net_Api.Dominio;
+using Vinculo_Net_Api.Infraestrutura;
+using Vinculo_Net_Api.Infraestrutura.Contexto;
+using Vinculo_Net_Api.Infraestrutura.Repositorios;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +21,7 @@ var configuracao = new Configuracao
         .GetReferencedAssemblies()
         .Where(e => e.FullName.StartsWith("VINCYULO"))
         .Select(Assembly.Load)
-        .Union(new[] { currentAssembly })
+        .Union([currentAssembly])
         .ToList(),
     ComportamentosAbertos = new List<Type> { typeof(ValidacaoComportamento<,>) }
 };
@@ -44,7 +44,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddLibs(configuracao);
 builder.Services.AddHttpContextAccessor();
-builder.Services.AdicionarPostgresDb<DomainContext>();
+builder.Services.AdicionarPostgresDb<DominioContexto>();
 builder.Services.AdicionarIdentidade();
 builder.Services.AdicionarRepositorios<IAppUnitOfWork, AppUnitOfWork>(configuracao.Assemblies);
 builder.Services.AddScoped<IFileSystem, FileSystem>();
