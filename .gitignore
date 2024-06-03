@@ -1,0 +1,52 @@
+# Arquivos do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de compilação
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+obj
+bin
+[Oo]bj/
+[Ll]og/
+
+# Arquivos de pacotes
+*.nupkg
+# Descomente a linha abaixo se você não quiser verificar seus pacotes NuGet no controle de versão
+#packages/
+
+# Arquivos de configuração do MSBuild
+*proj.nuget.g.props
+*proj.nuget.g.targets
+
+# Arquivos temporários do Visual Studio
+*.TMP
+*.bak
+*.cache
+*.pidb
+*.log
+*.scc
+
+# Arquivos do Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Arquivos de banco de dados .NET Core
+*.db
+*.sqlite3
+*.sqlite
+
+# Arquivos de backup de projeto
+*.bak.*
+*~*
+*.swp
+*.swo

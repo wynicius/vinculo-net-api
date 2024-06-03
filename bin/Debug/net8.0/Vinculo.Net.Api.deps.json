@@ -1053,6 +1053,7 @@
       },
       "Net.Utils/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "MediatR.Extensions.FluentValidation.AspNetCore": "5.0.0",
           "System.IO.Compression": "4.3.0"
         },
