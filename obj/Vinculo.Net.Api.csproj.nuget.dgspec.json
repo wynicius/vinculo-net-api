@@ -33,8 +33,8 @@
               "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
                 "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
               },
-              "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
-                "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
+              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
+                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
               },
               "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
                 "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
@@ -296,14 +296,14 @@
         }
       }
     },
-    "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
+    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
+        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
         "projectName": "Net.Identidade",
-        "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
+        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\obj\\",
+        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -409,6 +409,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "MediatR.Extensions.FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0, )"

@@ -1,9 +1,9 @@
-using NET.Data.Repositorio;
+using NET.Data.Interfaces;
 using Vinculo_Net_Api.Domain.Entities.Ongs;
 
 namespace Vinculo_Net_Api.Infrastructure.Repositories;
 
-public interface IAppUnitOfWork : UnitOfWork
+public interface IAppUnitOfWork : IUnitOfWork
 {
-    public RepositorioEscrita<Ong> Ong { get; }
+    public IRepositorioEscrita<Ong> Ong { get; }
 }
