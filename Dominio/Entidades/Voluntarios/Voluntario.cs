@@ -1,7 +1,7 @@
-using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
 using Vinculo_Net.Dominio.Entidades.Causas;
 using Vinculo_Net.Dominio.Entidades.Habilidades;
+using Vinculo_Net.Dominio.Entidades.Localizacoes;
 using Vinculo_Net.Dominio.Entidades.Ongs;
 using Vinculo_Net.Dominio.Entidades.Projetos;
 using Vinculo_Net.Dominio.Entidades.Usuarios;
@@ -13,7 +13,6 @@ public class Voluntario : EntidadeBase
     public Guid VoluntarioId { get; set; }
     public Guid UsuarioId { get; set; }
     public StatusVoluntario Status { get; set; }
-    public string? CaminhoFotoPerfil { get; set; }
     public string? Descricao { get; set; }
     public string? Experiencia { get; set; }
     public string? Formacao { get; set; }

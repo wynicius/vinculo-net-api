@@ -1,6 +1,6 @@
-using Dominio.Entidades.Localizacoes;
 using NET.Data.Base;
 using Vinculo_Net.Dominio.Entidades.Causas;
+using Vinculo_Net.Dominio.Entidades.Localizacoes;
 using Vinculo_Net.Dominio.Entidades.Usuarios;
 
 namespace Vinculo_Net.Dominio.Entidades.Investidores;
@@ -14,7 +14,6 @@ public class Investidor : EntidadeBase
     public StatusInvestidor Status { get; set; }
     public string? NomeFantasia { get; set; }
     public string? RazaoSocial { get; set; }
-    public string? CaminhoFotoPerfil { get; set; }
     public string? Email { get; set; }
     public string? Descricao { get; set; }
     public string? Cnpj { get; set; }
