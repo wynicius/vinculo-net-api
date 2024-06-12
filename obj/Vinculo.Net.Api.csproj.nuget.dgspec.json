@@ -27,17 +27,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj"
+              "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
+                "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj"
               },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
+              "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
+                "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
               },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
+              "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
+                "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
               },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
+              "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
+                "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
               }
             }
           }
@@ -139,14 +139,14 @@
         }
       }
     },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
+    "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
+        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
         "projectName": "Net.Controllers",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
+        "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\obj\\",
+        "outputPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -211,14 +211,14 @@
         }
       }
     },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
+    "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
+        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
         "projectName": "Net.Data",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
+        "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\obj\\",
+        "outputPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -296,14 +296,14 @@
         }
       }
     },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
+    "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
+        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
         "projectName": "Net.Identidade",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
+        "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\obj\\",
+        "outputPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -369,14 +369,14 @@
         }
       }
     },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
+    "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
+        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
         "projectName": "Net.Utils",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
+        "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\obj\\",
+        "outputPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"

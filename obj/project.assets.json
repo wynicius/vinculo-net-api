@@ -5376,17 +5376,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
-              "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj"
+            "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
+              "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj"
             },
-            "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
-              "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
+            "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
+              "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
             },
-            "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
-              "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
+            "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
+              "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
             },
-            "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
-              "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
+            "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
+              "projectPath": "C:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
             }
           }
         }

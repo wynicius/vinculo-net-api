@@ -1,6 +1,6 @@
-using Dominio.Entidades.Localizacoes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Vinculo_Net.Dominio.Entidades.Localizacoes;
 
 namespace Vinculo_Net.Infraestrutura.Contexto.EntidadesConfiguracoes;
 

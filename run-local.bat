@@ -4,7 +4,7 @@ set DB_SERVER=localhost
 set DB_PORT=5433
 set DB_USER=postgres
 set DB_PASSWORD=1234
-set DB_DATABASE=vinculo-v1
+set DB_DATABASE=vinculo
 set DB_POOLING=true
 
 set KEYCLOACK_AUTHORITY=https://sso.blue.com.br/realms/dev
