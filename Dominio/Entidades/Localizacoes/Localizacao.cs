@@ -1,6 +1,8 @@
-namespace Dominio.Entidades.Localizacoes;
+using NET.Data.Base;
 
-public class Localizacao
+namespace Vinculo_Net.Dominio.Entidades.Localizacoes;
+
+public class Localizacao : EntidadeBase
 {
     public Guid LocalizacaoId { get; set; }
     public string? Rua { get; set; }

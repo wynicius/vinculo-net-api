@@ -1,8 +1,9 @@
+using NET.Data.Base;
 using Vinculo_Net.Dominio.Entidades.Projetos;
 
 namespace Vinculo_Net.Dominio.Entidades.Investimentos;
 
-public class Investimento
+public class Investimento : EntidadeBase
 {
     public Guid InvestimentoId { get; set; }
     public Guid InvestidorId { get; set; }

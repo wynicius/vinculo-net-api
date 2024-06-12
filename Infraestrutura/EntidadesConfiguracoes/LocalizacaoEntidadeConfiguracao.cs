@@ -1,16 +1,16 @@
+using Dominio.Entidades.Localizacoes;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Vinculo_Net.Dominio.Entidades.Ongs;
 
 namespace Vinculo_Net.Infraestrutura.Contexto.EntidadesConfiguracoes;
 
-public class OngEntidadeConfiguracao : IEntityTypeConfiguration<Ong>
+public class LocalizacaoEntidadeConfiguracao : IEntityTypeConfiguration<Localizacao>
 {
-    public void Configure(EntityTypeBuilder<Ong> builder)
+    public void Configure(EntityTypeBuilder<Localizacao> builder)
     {
-        builder.ToTable("ongs", "vinculo_net");
+        builder.ToTable("localizacoes", "vinculo_net");
 
-        builder.HasKey(p => p.OngId);
+        builder.HasKey(p => p.LocalizacaoId);
 
         // builder.Property(p => p.Nome)
         //     .IsRequired();

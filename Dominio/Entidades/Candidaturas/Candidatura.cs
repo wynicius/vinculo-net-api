@@ -1,8 +1,9 @@
+using NET.Data.Base;
 using Vinculo_Net.Dominio.Entidades.Voluntarios;
 
 namespace Vinculo_Net.Dominio.Entidades.Candidaturas;
 
-public class Candidatura
+public class Candidatura : EntidadeBase
 {
     public Guid CandidaturaId { get; set; }
     public Guid VoluntarioId { get; set; }

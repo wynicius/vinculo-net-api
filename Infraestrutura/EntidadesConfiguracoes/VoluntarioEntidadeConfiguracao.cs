@@ -1,16 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Vinculo_Net.Dominio.Entidades.Ongs;
+using Vinculo_Net.Dominio.Entidades.Voluntarios;
 
 namespace Vinculo_Net.Infraestrutura.Contexto.EntidadesConfiguracoes;
 
-public class OngEntidadeConfiguracao : IEntityTypeConfiguration<Ong>
+public class VoluntarioEntidadeConfiguracao : IEntityTypeConfiguration<Voluntario>
 {
-    public void Configure(EntityTypeBuilder<Ong> builder)
+    public void Configure(EntityTypeBuilder<Voluntario> builder)
     {
-        builder.ToTable("ongs", "vinculo_net");
+        builder.ToTable("voluntarios", "vinculo_net");
 
-        builder.HasKey(p => p.OngId);
+        builder.HasKey(p => p.VoluntarioId);
 
         // builder.Property(p => p.Nome)
         //     .IsRequired();

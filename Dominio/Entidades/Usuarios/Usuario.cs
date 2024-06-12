@@ -13,7 +13,7 @@ public class Usuario : EntidadeBase
     public string? CaminhoFotoPerfil { get; set; }
     public DateTime DataNascimento { get; set; }
     public string? Cpf { get; set; }
-    public string? Gênero { get; set; }
+    public string? Genero { get; set; }
     public string? Email { get; set; }
     public string? Telefone { get; set; }
     public Localizacao? Localizacao { get; set; }
