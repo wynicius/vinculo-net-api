@@ -1,4 +1,5 @@
 using NET.Data.Base;
+using Vinculo_Net.Dominio.Entidades.Candidaturas;
 using Vinculo_Net.Dominio.Entidades.Causas;
 using Vinculo_Net.Dominio.Entidades.Investimentos;
 using Vinculo_Net.Dominio.Entidades.Voluntarios;
@@ -20,4 +21,5 @@ public class Projeto : EntidadeBase
     public Causa? Causa { get; set; }
     public List<Voluntario>? Voluntarios { get; set; }
     public List<Investimento>? Investimentos { get; set; }
+    public List<Candidatura> Candidaturas { get; set; }
 }

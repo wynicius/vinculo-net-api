@@ -1,4 +1,4 @@
-using NET.Data.Base;
+using Vinculo_Net.Dominio.Entidades.Candidaturas;
 using Vinculo_Net.Dominio.Entidades.Causas;
 using Vinculo_Net.Dominio.Entidades.Habilidades;
 using Vinculo_Net.Dominio.Entidades.Localizacoes;
@@ -22,5 +22,5 @@ public class Voluntario : EntidadeBase
     public Localizacao? Localizacao { get; set; }
     public List<Projeto>? Projetos { get; set; }
     public List<Causa>? Causas { get; set; }
-    public List<Ong>? Ongs { get; set; }
+    public List<Candidatura>? Candidaturas { get; set; }
 }

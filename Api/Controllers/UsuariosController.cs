@@ -16,7 +16,7 @@ public class UsuariosController(IMediator mediator) : BaseController
     [HttpPost]
     public async Task<IActionResult> Inserir([FromBody] InserirUsuarioEvento evento)
     {
-        return Retorno(await _mediator.Send(new InserirUsuarioComando(evento.NovoUsuarioDto, evento.NovaLocalizacaoDto)));
+        return Retorno(await _mediator.Send(new InserirUsuarioComando(evento.NovoUsuarioDto!, evento.NovaLocalizacaoDto!)));
     }
 
     [HttpGet]
