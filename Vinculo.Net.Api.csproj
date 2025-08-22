@@ -6,14 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Vinculo_Net</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\libs\Vinculo.Net.Controllers\NET.Controllers\NET.Controllers.csproj" Version="1.0.0" />
-    <ProjectReference Include="..\..\libs\Vinculo.Net.Data\NET.Data\NET.Data.csproj" Version="1.0.0" />
-    <ProjectReference Include="..\..\libs\Vinculo.Net.Identidade\NET.Identidade\NET.Identidade.csproj" Version="1.0.0" />
-    <ProjectReference Include="..\..\libs\Vinculo.Net.Utils\NET.Utils\NET.Utils.csproj" Version="1.0.0" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.5.0" />
@@ -21,18 +16,21 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="MediatR.Extensions.FluentValidation.AspNetCore" Version="5.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.20" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-    <PackageReference Include="NetDevPack.Security.Jwt.AspNetCore" Version="6.0.7" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.8" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="NetDevPack.Security.Jwt.AspNetCore" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.7.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.7.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
-    <PackageReference Include="System.IO.Abstractions" Version="19.2.69" />
+    <PackageReference Include="System.IO.Abstractions" Version="21.0.29" />
   </ItemGroup>
 
 </Project>

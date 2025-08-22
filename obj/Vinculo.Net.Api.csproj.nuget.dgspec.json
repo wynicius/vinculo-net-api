@@ -1,45 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\projetos\\vinculo\\api\\vinculo-net-api\\Vinculo.Net.Api.csproj": {}
+    "C:\\dev\\projetos\\vinculo-net-api\\Vinculo.Net.Api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\projetos\\vinculo\\api\\vinculo-net-api\\Vinculo.Net.Api.csproj": {
+    "C:\\dev\\projetos\\vinculo-net-api\\Vinculo.Net.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\projetos\\vinculo\\api\\vinculo-net-api\\Vinculo.Net.Api.csproj",
+        "projectUniqueName": "C:\\dev\\projetos\\vinculo-net-api\\Vinculo.Net.Api.csproj",
         "projectName": "Vinculo.Net.Api",
-        "projectPath": "C:\\dev\\projetos\\vinculo\\api\\vinculo-net-api\\Vinculo.Net.Api.csproj",
-        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\projetos\\vinculo\\api\\vinculo-net-api\\obj\\",
+        "projectPath": "C:\\dev\\projetos\\vinculo-net-api\\Vinculo.Net.Api.csproj",
+        "packagesPath": "C:\\Users\\Wynicius\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\projetos\\vinculo-net-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Wynicius\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj"
-              },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj"
-              },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj"
-              },
-              "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
-                "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -51,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -79,33 +66,51 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.15, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.20, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.1, )"
             },
             "NetDevPack.Security.Jwt.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[8.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "SonarAnalyzer.CSharp": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "(, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.7.3, )"
             },
             "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.7.3, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -113,7 +118,7 @@
             },
             "System.IO.Abstractions": {
               "target": "Package",
-              "version": "[19.2.69, )"
+              "version": "[21.0.29, )"
             }
           },
           "imports": [
@@ -127,6 +132,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -135,310 +158,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
-        "projectName": "Net.Controllers",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\NET.Controllers.csproj",
-        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Controllers\\NET.Controllers\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "MediatR.Extensions.FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
-        "projectName": "Net.Data",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\NET.Data.csproj",
-        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Data\\NET.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6",
-          "dependencies": {
-            "EFCore.NamingConventions": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.AspNetCore.Http.Abstractions": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.21, )"
-            },
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[6.0.21, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.21, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[6.0.8, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
-        "projectName": "Net.Identidade",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\NET.Identidade.csproj",
-        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Identidade\\NET.Identidade\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.4, )"
-            },
-            "Microsoft.AspNetCore.Authorization": {
-              "target": "Package",
-              "version": "[6.0.18, )"
-            },
-            "NetDevPack.Security.JwtExtensions": {
-              "target": "Package",
-              "version": "[6.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
-        "projectName": "Net.Utils",
-        "projectPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\NET.Utils.csproj",
-        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\projetos\\vinculo\\libs\\Vinculo.Net.Utils\\NET.Utils\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://gitlab.equipeblue.com.br/api/v4/groups/238/-/packages/nuget/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "MediatR.Extensions.FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
-            "System.IO.Compression": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

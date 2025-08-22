@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Vinculo_Net.Dominio.Entidades.Voluntarios;
 
-namespace Vinculo_Net.Infraestrutura.Contexto.EntidadesConfiguracoes;
+namespace Vinculo_Net.Infraestrutura.EntidadesConfiguracoes;
 
 public class VoluntarioEntidadeConfiguracao : IEntityTypeConfiguration<Voluntario>
 {
@@ -12,6 +12,6 @@ public class VoluntarioEntidadeConfiguracao : IEntityTypeConfiguration<Voluntari
 
         builder.HasKey(p => p.VoluntarioId);
 
-        builder.Has
+        // Additional configuration can be added here
     }
 }

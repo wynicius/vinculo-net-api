@@ -1,0 +1,7 @@
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.AssemblyReference.cache
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.csproj.CoreCompileInputs.cache
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\dev\projetos\vinculo-net-api\obj\Debug\net8.0\Vinculo.Net.Api.sourcelink.json
